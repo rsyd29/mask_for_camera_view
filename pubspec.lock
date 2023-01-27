@@ -34,13 +34,14 @@ packages:
     source: hosted
     version: "0.10.2+1"
   camera_android:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
-      name: camera_android
-      sha256: "417e9eddda8025d7342f82ee53b214f149793e95c8490c3440a46144409f7966"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.10.2+3"
+      path: "packages/camera/camera_android"
+      ref: "8550e0e698f3d358f42d60b090320dea7c3c0775"
+      resolved-ref: "8550e0e698f3d358f42d60b090320dea7c3c0775"
+      url: "https://github.com/OmarHatem28/plugins.git"
+    source: git
+    version: "0.10.2+1"
   camera_avfoundation:
     dependency: transitive
     description:

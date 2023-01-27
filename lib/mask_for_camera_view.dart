@@ -368,7 +368,7 @@ Future<MaskForCameraViewResult?> _cropPicture(
   XFile xFile = await _cameraController!.takePicture();
   File imageFile = File(xFile.path);
 
-  RenderBox box = _stickyKey.currentContext!.findRenderObject() as RenderBox;
+  RenderBox box = _stickyKey.currentContext?.findRenderObject() as RenderBox;
   double size = box.size.height * 2;
   MaskForCameraViewResult? result = await cropImage(
     imageFile.path,
