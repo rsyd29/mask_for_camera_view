@@ -27,6 +27,7 @@ FlashMode _flashMode = FlashMode.auto;
 // ignore: must_be_immutable
 class MaskForCameraView extends StatefulWidget {
   MaskForCameraView({
+    Key? key,
     this.title = "Crop image from camera",
     this.boxWidth = 300.0,
     this.boxHeight = 168.0,
@@ -48,7 +49,7 @@ class MaskForCameraView extends StatefulWidget {
     this.takeButtonColor = Colors.white,
     this.takeButtonActionColor = Colors.black,
     this.iconsColor = Colors.white,
-  });
+  }) : super(key: key);
 
   String title;
   double boxWidth;
