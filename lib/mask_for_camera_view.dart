@@ -81,13 +81,21 @@ class _MaskForCameraViewState extends State<MaskForCameraView> {
 
   @override
   void initState() {
-    _cameraController = CameraController(
-      widget.cameraDescription == MaskForCameraViewCameraDescription.rear
-          ? _cameras!.first
-          : _cameras!.last,
-      ResolutionPreset.high,
-      enableAudio: false,
-    );
+    if (_cameras != null) {
+      _cameraController = CameraController(
+        widget.cameraDescription == MaskForCameraViewCameraDescription.rear
+            ? _cameras!.first
+            : _cameras!.last,
+        ResolutionPreset.high,
+        enableAudio: false,
+      );
+    } else {
+      const snackBar = SnackBar(
+        content: Text('Camera not found'),
+      );
+      ScaffoldMessenger.of(context).showSnackBar(snackBar);
+    }
+
     super.initState();
     _cameraController!.initialize().then((_) async {
       if (!mounted) {
@@ -107,7 +115,6 @@ class _MaskForCameraViewState extends State<MaskForCameraView> {
   Widget build(BuildContext context) {
     _screenWidth = MediaQuery.of(context).size.width;
     _screenHeight = MediaQuery.of(context).size.height;
-    // _screenHeight = MediaQuery.of(context).size.height;
 
     _boxWidthForCrop = widget.boxWidth;
     _boxHeightForCrop = widget.boxHeight;

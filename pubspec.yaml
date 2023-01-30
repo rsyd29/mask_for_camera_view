@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   image: ^4.0.12
-  camera: ^0.10.2+1
+  camera: ^0.10.3
   dotted_border: ^2.0.0+3
 
 #dependency_overrides:

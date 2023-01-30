@@ -29,19 +29,18 @@ packages:
     dependency: "direct main"
     description:
       name: camera
-      sha256: "045e7739f9362f3c01d5c7187ac7e2ba9e2bc9f2ae6470ecdcc5e34d060ed81c"
+      sha256: e7ac55af24a890d20276821eb3c95857074d03b7de6f9892b99a205ee30bd179
       url: "https://pub.dev"
     source: hosted
-    version: "0.10.2+1"
+    version: "0.10.3"
   camera_android:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "packages/camera/camera_android"
-      ref: "8550e0e698f3d358f42d60b090320dea7c3c0775"
-      resolved-ref: "8550e0e698f3d358f42d60b090320dea7c3c0775"
-      url: "https://github.com/OmarHatem28/plugins.git"
-    source: git
-    version: "0.10.2+1"
+      name: camera_android
+      sha256: "4cef01e8e78fe27c809a429bf74352ab94ab76b0c980e3ec708f1414614e3d9f"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.10.3"
   camera_avfoundation:
     dependency: transitive
     description:
