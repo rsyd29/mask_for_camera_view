@@ -3,9 +3,9 @@
     <CLASSES>
       <root url="file://$PROJECT_DIR$" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/camera_avfoundation-0.9.10+2" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/camera-0.10.2+1" />
-      <root url="file://$USER_HOME$/.pub-cache/git/plugins-8550e0e698f3d358f42d60b090320dea7c3c0775/packages/camera/camera_android" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/camera_web-0.3.1+1" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/camera-0.10.3" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/camera_android-0.10.3" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="205f53fb-90f3-470f-a8fd-b9554c978e55" name="Changes" comment="Comment dependecy_overrides">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mask_for_camera_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/mask_for_camera_view.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    <list default="true" id="205f53fb-90f3-470f-a8fd-b9554c978e55" name="Changes" comment="update version camera to ^0.10.3 and add condition camera not found">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674793877276</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update version camera to ^0.10.3 and add condition camera not found">
+      <created>1675053871608</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675053871608</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -121,6 +125,7 @@
     <MESSAGE value="Update gradle" />
     <MESSAGE value="Adding dependency_overrides for camera_android" />
     <MESSAGE value="Comment dependecy_overrides" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comment dependecy_overrides" />
+    <MESSAGE value="update version camera to ^0.10.3 and add condition camera not found" />
+    <option name="LAST_COMMIT_MESSAGE" value="update version camera to ^0.10.3 and add condition camera not found" />
   </component>
 </project>
