@@ -1,6 +1,6 @@
 name: mask_for_camera_view
 description: Crop section image from camera
-version: 1.3.2
+version: 1.3.3
 homepage: 'https://github.com/turoboff/mask_for_camera_view'
 
 environment:
