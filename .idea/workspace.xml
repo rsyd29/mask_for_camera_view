@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="205f53fb-90f3-470f-a8fd-b9554c978e55" name="Changes" comment="Change workspace">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="205f53fb-90f3-470f-a8fd-b9554c978e55" name="Changes" comment="Update pubspec.lock" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -21,9 +21,25 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "rsyd29"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/rsyd29/mask_for_camera_view.git",
+    "accountId": "57fd5e93-922b-4fac-bb40-9eb6efcd13af"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="2KtP4uoVa855L9A0cUlTahKXSVX" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
@@ -37,16 +53,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;update-package&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/legoasmacbookair/StudioProjects/mask_for_camera_view&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "update-package",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/legoasmacbookair/StudioProjects/mask_for_camera_view",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="example/lib/main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true">
       <option name="filePath" value="$PROJECT_DIR$/example/lib/main.dart" />
@@ -130,7 +150,23 @@
       <option name="project" value="LOCAL" />
       <updated>1686732082980</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update package">
+      <option name="closed" value="true" />
+      <created>1745622177240</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1745622177240</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update pubspec.lock">
+      <option name="closed" value="true" />
+      <created>1745622210436</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1745622210436</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -160,6 +196,8 @@
     <MESSAGE value="update build gradle to 7.0.1" />
     <MESSAGE value="Update gradle for update version to" />
     <MESSAGE value="Update gradle for update version to 1.3.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update gradle for update version to 1.3.2" />
+    <MESSAGE value="Update package" />
+    <MESSAGE value="Update pubspec.lock" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update pubspec.lock" />
   </component>
 </project>
