@@ -1,26 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="mask_for_camera_view.dart" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/mask_for_camera_view.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="205f53fb-90f3-470f-a8fd-b9554c978e55" name="Changes" comment="Update pubspec.lock" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "rsyd29"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/rsyd29/mask_for_camera_view.git",
+    "accountId": "57fd5e93-922b-4fac-bb40-9eb6efcd13af"
+  }
+}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2KtP4uoVa855L9A0cUlTahKXSVX" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <option name="show-excluded-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "update-package",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/legoasmacbookair/StudioProjects/mask_for_camera_view",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="example/lib/main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true">
+      <option name="filePath" value="$PROJECT_DIR$/example/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flutter.example/lib/main.dart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="205f53fb-90f3-470f-a8fd-b9554c978e55" name="Changes" comment="" />
+      <created>1674790718098</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674790718098</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Update package pubspec.yaml and add another configuration package">
+      <created>1674791225233</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674791225233</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update gradle">
+      <created>1674792451651</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674792451651</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding dependency_overrides for camera_android">
+      <created>1674793425187</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674793425187</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Comment dependecy_overrides">
+      <created>1674793877276</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674793877276</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update version camera to ^0.10.3 and add condition camera not found">
+      <created>1675053871608</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675053871608</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update build gradle to 7.2.2">
+      <created>1675054465354</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675054465354</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update build gradle to 7.0.1">
+      <created>1675055197296</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675055197296</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update gradle for update version to">
+      <created>1686732055833</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686732055833</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update gradle for update version to 1.3.2">
+      <created>1686732082980</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686732082980</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update package">
+      <option name="closed" value="true" />
+      <created>1745622177240</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1745622177240</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update pubspec.lock">
+      <option name="closed" value="true" />
+      <created>1745622210436</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1745622210436</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
   </component>
   <component name="ToolWindowManager">
     <editor active="true" />
@@ -28,18 +175,29 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
     </layout>
   </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <option name="show-excluded-files" value="false" />
-      </pane>
-    </panes>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="dart.analysis.tool.window.force.activate" value="true" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update package pubspec.yaml and add another configuration package" />
+    <MESSAGE value="Update gradle" />
+    <MESSAGE value="Adding dependency_overrides for camera_android" />
+    <MESSAGE value="Comment dependecy_overrides" />
+    <MESSAGE value="update version camera to ^0.10.3 and add condition camera not found" />
+    <MESSAGE value="update build gradle to 7.2.2" />
+    <MESSAGE value="update build gradle to 7.0.1" />
+    <MESSAGE value="Update gradle for update version to" />
+    <MESSAGE value="Update gradle for update version to 1.3.2" />
+    <MESSAGE value="Update package" />
+    <MESSAGE value="Update pubspec.lock" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update pubspec.lock" />
   </component>
 </project>

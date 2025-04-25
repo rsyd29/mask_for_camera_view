@@ -27,6 +27,7 @@ FlashMode _flashMode = FlashMode.auto;
 // ignore: must_be_immutable
 class MaskForCameraView extends StatefulWidget {
   MaskForCameraView({
+    Key? key,
     this.title = "Crop image from camera",
     this.boxWidth = 300.0,
     this.boxHeight = 168.0,
@@ -48,7 +49,7 @@ class MaskForCameraView extends StatefulWidget {
     this.takeButtonColor = Colors.white,
     this.takeButtonActionColor = Colors.black,
     this.iconsColor = Colors.white,
-  });
+  }) : super(key: key);
 
   String title;
   double boxWidth;
@@ -80,13 +81,21 @@ class _MaskForCameraViewState extends State<MaskForCameraView> {
 
   @override
   void initState() {
-    _cameraController = CameraController(
-      widget.cameraDescription == MaskForCameraViewCameraDescription.rear
-          ? _cameras!.first
-          : _cameras!.last,
-      ResolutionPreset.high,
-      enableAudio: false,
-    );
+    if (_cameras != null) {
+      _cameraController = CameraController(
+        widget.cameraDescription == MaskForCameraViewCameraDescription.rear
+            ? _cameras!.first
+            : _cameras!.last,
+        ResolutionPreset.high,
+        enableAudio: false,
+      );
+    } else {
+      const snackBar = SnackBar(
+        content: Text('Camera not found'),
+      );
+      ScaffoldMessenger.of(context).showSnackBar(snackBar);
+    }
+
     super.initState();
     _cameraController!.initialize().then((_) async {
       if (!mounted) {
@@ -106,7 +115,6 @@ class _MaskForCameraViewState extends State<MaskForCameraView> {
   Widget build(BuildContext context) {
     _screenWidth = MediaQuery.of(context).size.width;
     _screenHeight = MediaQuery.of(context).size.height;
-    // _screenHeight = MediaQuery.of(context).size.height;
 
     _boxWidthForCrop = widget.boxWidth;
     _boxHeightForCrop = widget.boxHeight;
@@ -367,7 +375,7 @@ Future<MaskForCameraViewResult?> _cropPicture(
   XFile xFile = await _cameraController!.takePicture();
   File imageFile = File(xFile.path);
 
-  RenderBox box = _stickyKey.currentContext!.findRenderObject() as RenderBox;
+  RenderBox box = _stickyKey.currentContext?.findRenderObject() as RenderBox;
   double size = box.size.height * 2;
   MaskForCameraViewResult? result = await cropImage(
     imageFile.path,
