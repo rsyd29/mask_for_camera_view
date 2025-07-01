@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'dart:typed_data';
+
 import 'package:flutter/material.dart';
 import 'package:mask_for_camera_view/mask_for_camera_view.dart';
 import 'package:mask_for_camera_view/mask_for_camera_view_camera_description.dart';
@@ -97,7 +98,11 @@ class HomePage extends StatelessWidget {
                   color: Colors.transparent,
                   child: InkWell(
                     onTap: () {
-                      launch("https://pub.dev/packages/mask_for_camera_view");
+                      launchUrl(
+                        Uri.parse(
+                          "https://pub.dev/packages/mask_for_camera_view",
+                        ),
+                      );
                     },
                     borderRadius: BorderRadius.circular(12.0),
                     child: const Center(

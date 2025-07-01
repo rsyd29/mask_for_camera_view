@@ -238,8 +238,8 @@ class _MaskForCameraViewState extends State<MaskForCameraView> {
                         child: Material(
                           color: Colors.transparent,
                           child: InkWell(
-                            splashColor:
-                                widget.takeButtonActionColor.withOpacity(0.26),
+                            splashColor: widget.takeButtonActionColor
+                                .withValues(alpha: 0.26),
                             onTap: () async {
                               if (isRunning) {
                                 return;
@@ -289,17 +289,15 @@ class _MaskForCameraViewState extends State<MaskForCameraView> {
             right: 0.0,
             child: Center(
               child: DottedBorder(
-                borderType: BorderType.RRect,
-                strokeWidth:
-                    widget.borderType == MaskForCameraViewBorderType.dotted
-                        ? widget.boxBorderWidth
-                        : 0.0,
-                color: widget.borderType == MaskForCameraViewBorderType.dotted
-                    ? widget.boxBorderColor
-                    : Colors.transparent,
-                dashPattern: const [4, 3],
-                radius: Radius.circular(
-                  widget.boxBorderRadius,
+                options: RectDottedBorderOptions(
+                  color: widget.borderType == MaskForCameraViewBorderType.dotted
+                      ? widget.boxBorderColor
+                      : Colors.transparent,
+                  strokeWidth:
+                      widget.borderType == MaskForCameraViewBorderType.dotted
+                          ? widget.boxBorderWidth
+                          : 0.0,
+                  dashPattern: const [4, 3],
                 ),
                 child: Container(
                   decoration: BoxDecoration(
