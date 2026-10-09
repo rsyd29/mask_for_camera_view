@@ -13,6 +13,8 @@ import 'crop_image.dart';
 import 'mask_for_camera_view_border_type.dart';
 import 'mask_for_camera_view_inside_line.dart';
 
+export 'package:camera/camera.dart' show ResolutionPreset;
+
 CameraController? _cameraController;
 List<CameraDescription>? _cameras;
 GlobalKey _stickyKey = GlobalKey();
@@ -49,6 +51,7 @@ class MaskForCameraView extends StatefulWidget {
     this.takeButtonColor = Colors.white,
     this.takeButtonActionColor = Colors.black,
     this.iconsColor = Colors.white,
+    this.resolutionPreset = ResolutionPreset.high,
   }) : super(key: key);
 
   String title;
@@ -68,6 +71,10 @@ class MaskForCameraView extends StatefulWidget {
   Color iconsColor;
   ValueSetter<MaskForCameraViewResult> onTake;
   MaskForCameraViewBorderType borderType;
+
+  /// Camera capture resolution. Defaults to [ResolutionPreset.high] (~720p);
+  /// use [ResolutionPreset.max] when the cropped area must stay sharp (OCR).
+  ResolutionPreset resolutionPreset;
   @override
   State<StatefulWidget> createState() => _MaskForCameraViewState();
 
@@ -86,7 +93,7 @@ class _MaskForCameraViewState extends State<MaskForCameraView> {
         widget.cameraDescription == MaskForCameraViewCameraDescription.rear
             ? _cameras!.first
             : _cameras!.last,
-        ResolutionPreset.high,
+        widget.resolutionPreset,
         enableAudio: false,
       );
     } else {
